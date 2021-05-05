@@ -9,7 +9,9 @@
       color="#fafafa"
     >
       <v-toolbar-title>
-        <img height="60px" src="@/assets/TENAGE_logo.png">
+        <router-link to="/">
+          <img height="60px" src="@/assets/TENAGE_logo.png">
+        </router-link>
       </v-toolbar-title>
     </v-toolbar>
   </v-card>
