@@ -9,5 +9,6 @@ import Result from './components/Result.vue';
 Vue.use(Router);
 
 export default new Router({
+  mode: "history",
   routes: [{ path: '/', component: Top }, { path: '/options', component: Options }, { path: '/types', component: Types }, { path: '/result', component: Result }]
 });
