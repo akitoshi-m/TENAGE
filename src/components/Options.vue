@@ -24,7 +24,7 @@
             </div>
           </router-link>
         </v-col>
-        <v-col cols="6">
+        <!-- <v-col cols="6">
           <router-link to="/types/action" tag="div">
             <div class="menu">
               <div class="menu-title">
@@ -39,22 +39,23 @@
               </div>
             </div>
           </router-link>
-        </v-col>
-        <!-- <v-col cols="6">
+        </v-col> -->
+        <v-col cols="6">
           <router-link to="/types/music" tag="div">
             <div class="menu">
               <div class="menu-title">
-                <p>音楽 - Music</p>
+                <p>Music</p>
+                <p>音楽</p>
               </div>
               <div class="menu-img">
                 <img src="@/assets/music.svg">
               </div>
               <div class="menu-description">
-                <p>×100の音楽</p>
+                <p>×100 musics</p>
               </div>
             </div>
           </router-link>
-        </v-col> -->
+        </v-col>
       </v-row>
     </v-container>
   </div>
