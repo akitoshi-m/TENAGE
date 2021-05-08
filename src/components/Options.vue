@@ -12,13 +12,14 @@
           <router-link to="/types/word" tag="div">
             <div class="menu">
               <div class="menu-title">
-                <p>言葉 - Word</p>
+                <p>Word</p>
+                <p>言葉</p>
               </div>
               <div class="menu-img">
                 <img src="@/assets/word.svg">
               </div>
               <div class="menu-description">
-                <p>×100の言葉</p>
+                <p>×100 words</p>
               </div>
             </div>
           </router-link>
@@ -27,13 +28,14 @@
           <router-link to="/types/action" tag="div">
             <div class="menu">
               <div class="menu-title">
-                <p>行動 - Action</p>
+                <p>Action</p>
+                <p>行動</p>
               </div>
               <div class="menu-img">
                 <img src="@/assets/action.svg">
               </div>
               <div class="menu-description">
-                <p>×100の行動</p>
+                <p>×100 actions</p>
               </div>
             </div>
           </router-link>
@@ -76,7 +78,7 @@
 .menu-title {
   padding-top: 20px;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
   color: #5F5F5F;
 }
 
@@ -86,6 +88,7 @@
 }
 
 .menu-description {
+  font-weight: bold;
   margin-top: 30px;
   font-size: 25px;
 }
