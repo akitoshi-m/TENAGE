@@ -1,35 +1,131 @@
 <template>
   <div>
     <TopHeader></TopHeader>
-    <h3>トップ画面</h3>
     <div>
-      <div>
-        <div>
-          <span class="top-text">MOTIVATE</span>
+      <div class="top">
+        <div class="top-left">
+          <div class="top-left-text">MOTIVATE</div>
+          <div class="top-left-text">YOUR LIFE</div>
+          <div class="top-left-text">AND</div>
+          <div class="top-left-text">ENERGIZE YOU</div>
+          <div class="top-left-button">
+            <v-btn
+              color="#E6855E"
+              outlined
+              text
+              x-large
+            >Tap to START!!</v-btn>
+          </div>
         </div>
-        <div>
-          <span class="top-text">YOUR LIFE</span>
+        <div class="top-right">
+          <!-- <div class="top-right-img"> -->
+          <img src="@/assets/tenage_top.svg">
+          <!-- </div> -->
         </div>
-        <div>
-          <span class="top-text">AND</span>
+      </div>
+      <div class="card">
+        <div class="card-title">
+
         </div>
-        <div>
-          <span class="top-text">ENERGIZE YOU</span>
+        <div class="card-left">
+
         </div>
-        <v-btn
-          color="#E6855E"
-          outlined
-          text
-          x-large
-        >Tap to START!!</v-btn>
+        <div class="card-right">
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">
+
+        </div>
+        <div class="card-left">
+
+        </div>
+        <div class="card-right">
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">
+
+        </div>
+        <div class="card-left">
+
+        </div>
+        <div class="card-right">
+
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">
+          
+        </div>
+        <div class="card-left">
+
+        </div>
+        <div class="card-right">
+
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">
+          
+        </div>
+        <div class="card-left">
+
+        </div>
+        <div class="card-right">
+
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.top-text {
+.top {
+  display: flex;
+}
+
+.top-left {
+  width: 50%;
+  margin: 100px 0 0 150px;
+}
+
+.top-left-text {
   color: #E6855E;
   font-size: 50px;
+  font-weight: bold;
+}
+
+.top-left-button {
+  margin-top: 30px;
+  padding-left: 50px;
+}
+
+.top-right {
+  width: 50%;
+  display: flex;
+}
+
+.top-right > img {
+  padding: 50px 80px 0 0;
+  width: 100%;
+}
+
+.card {
+
+}
+
+.card-title {
+
+}
+
+.card-left {
+
+}
+
+.cart-right {
+  
 }
 </style>
