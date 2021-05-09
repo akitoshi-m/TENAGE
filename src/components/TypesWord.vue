@@ -39,6 +39,15 @@
           </router-link>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col>
+          <router-link to="/options" tag="div">
+            <v-btn class="ma-2" color="#5F5F5F" dark>
+              <v-icon dark left>mdi-arrow-left</v-icon>Back
+            </v-btn>
+          </router-link>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
