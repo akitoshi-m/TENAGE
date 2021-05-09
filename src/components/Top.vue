@@ -30,11 +30,11 @@
           <p>ABOUT</p>
         </div>
         <div class="card-menu">
-          <div class="card-menu-left">
-            <p>カードmenuレフト</p>
+          <div class="card-menu-img">
+            <p>イメージ</p>
           </div>
-          <div class="card-menu-right">
-            <p>カードmenuライト</p>
+          <div class="card-menu-text">
+            <p>テキスト</p>
           </div>
         </div>
       </div>
@@ -43,11 +43,11 @@
           <p>HOW TO USE</p>
         </div>
         <div class="card-menu">
-          <div class="card-menu-left">
-            <p>カードmenuレフト</p>
+          <div class="card-menu-text">
+            <p>テキスト</p>
           </div>
-          <div class="card-menu-right">
-            <p>カードmenuライト</p>
+          <div class="card-menu-img">
+            <p>イメージ</p>
           </div>
         </div>
       </div>
@@ -56,11 +56,11 @@
           <p>REVIEWS</p>
         </div>
         <div class="card-menu">
-          <div class="card-menu-left">
-            <p>カードmenuレフト</p>
+          <div class="card-menu-img">
+            <p>現在工事中</p>
           </div>
-          <div class="card-menu-right">
-            <p>カードmenuライト</p>
+          <div class="ccard-menu-text">
+            <p>現在工事中</p>
           </div>
         </div>
       </div>
@@ -69,11 +69,11 @@
           <p>POLICY</p>
         </div>
         <div class="card-menu">
-          <div class="card-menu-left">
-            <p>カードmenuレフト</p>
+          <div class="card-menu-text">
+            <p>現在工事中</p>
           </div>
-          <div class="card-menu-right">
-            <p>カードmenuライト</p>
+          <div class="card-menu-img">
+            <p>現在工事中</p>
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@
 <style scoped>
 .top {
   display: flex;
-  height: 600px;
+  height: 700px;
 }
 
 .top-left {
@@ -120,6 +120,7 @@
   width: 100%;
 }
 
+/* カード */
 .card {
   height: 400px;
 }
@@ -135,18 +136,23 @@
 .card-menu {
   display: flex;
   text-align: center;
+  color: #5F5F5F;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
-.card-menu-left {
+.card-menu-img {
+  width: 50%;
+}
+
+.card-menu-text {
   width: 50%;
 }
 
 .card-menu-right {
   width: 50%;
-}
-
-.card-menu-text {
-  color: #E6855E;
 }
 
 .bottom {
