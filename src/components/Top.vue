@@ -31,10 +31,20 @@
         </div>
         <div class="card-menu">
           <div class="card-menu-img">
-            <p>イメージ</p>
+            <img src="@/assets/top_about.png" alt="トップのABOUT画像">
           </div>
           <div class="card-menu-text">
-            <p>テキスト</p>
+            <p>
+              やらないといけないことはあるけど、<br>
+              やる気が出ないという感情を経験した<br>
+              ことは誰しもあると思います<br>
+              <br>
+              やる気が出ない理由は様々です<br>
+              だけど、今すぐにやる気を出して<br>
+              行動をしてきたい時はありますよね<br>
+              <br>
+              そんな時にこのアプリを使って心を燃やしていきましょう！
+            </p>
           </div>
         </div>
       </div>
@@ -44,10 +54,16 @@
         </div>
         <div class="card-menu">
           <div class="card-menu-text">
-            <p>テキスト</p>
+            <p>
+              ①「言葉」or「音楽」を選択する<br>
+                        ↓<br>
+              ②4つの選択肢から希望のタイプを選ぶ<br>
+                        ↓<br>
+              ③結果が表示される
+            </p>
           </div>
           <div class="card-menu-img">
-            <p>イメージ</p>
+            <img src="@/assets/top_howto.png" alt="使い方の画像">
           </div>
         </div>
       </div>
@@ -57,9 +73,9 @@
         </div>
         <div class="card-menu">
           <div class="card-menu-img">
-            <p>現在工事中</p>
+            <img src="@/assets/top_now_preparing.png" alt="工事中の画像">
           </div>
-          <div class="ccard-menu-text">
+          <div class="card-menu-text">
             <p>現在工事中</p>
           </div>
         </div>
@@ -73,7 +89,7 @@
             <p>現在工事中</p>
           </div>
           <div class="card-menu-img">
-            <p>現在工事中</p>
+            <img src="@/assets/top_now_preparing.png" alt="工事中の画像">
           </div>
         </div>
       </div>
@@ -89,6 +105,7 @@
 </template>
 
 <style scoped>
+/* トップ */
 .top {
   display: flex;
   height: 700px;
@@ -122,7 +139,7 @@
 
 /* カード */
 .card {
-  height: 400px;
+  height: 500px;
 }
 
 .card-title {
@@ -141,14 +158,24 @@
   font-size: 30px;
   justify-content: center;
   align-items: center;
+  height: 350px;
 }
 
 .card-menu-img {
+  height: 330px;
   width: 50%;
+  margin: 0 50px 0 30px; 
+  background-color: #F9DFD5;
+}
+
+.card-menu-img > img {
+  margin-top: 15px;
+  height: 300px
 }
 
 .card-menu-text {
   width: 50%;
+  font-size: 20px;
 }
 
 .card-menu-right {
