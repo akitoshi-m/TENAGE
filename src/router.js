@@ -12,5 +12,14 @@ Vue.use(Router);
 
 export default new Router({
   mode: "history",
-  routes: [{ path: '/', component: Top }, { path: '/options', component: Options }, { path: '/types/word', component: TypesWord }, { path: '/types/action', component: TypesAction }, { path: '/types/music', component: TypesMusic }, { path: '/result', component: Result }]
+  routes: [
+    { path: '/', component: Top },
+    { path: '/options', component: Options },
+    { path: '/types/word', component: TypesWord },
+    { path: '/types/action', component: TypesAction },
+    { path: '/types/music', component: TypesMusic },
+    { path: '/types/word/:id', component: Result },
+    { path: '/types/action/:id', component: Result },
+    { path: '/types/music/:id', component: Result }
+  ]
 });
