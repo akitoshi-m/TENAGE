@@ -7,7 +7,7 @@
           <p>What type do you like?</p>
         </v-col>
         <v-col cols="12" sm="6" xs="6">
-          <router-link to="/result" tag="div">
+          <router-link to="/types/music/5" tag="div">
             <div class="card">
               <div class="number-allenge">1</div>
               <div class="text-allenge">松岡 修造</div>
@@ -15,7 +15,7 @@
           </router-link>
         </v-col>
         <v-col cols="12" sm="6" xs="6">
-          <router-link to="/result" tag="div">
+          <router-link to="/types/music/6" tag="div">
             <div class="card">
               <span class="number-allenge">2</span>
               <span class="text-allenge">アニソン</span>
@@ -23,7 +23,7 @@
           </router-link>
         </v-col>
         <v-col cols="12" sm="6" xs="6">
-          <router-link to="/result" tag="div">
+          <router-link to="/types/music/7" tag="div">
             <div class="card">
               <span class="number-allenge">3</span>
               <span class="text-allenge">J-POP</span>
@@ -31,7 +31,7 @@
           </router-link>
         </v-col>
         <v-col cols="12" sm="6" xs="6">
-          <router-link to="/result" tag="div">
+          <router-link to="/types/music/8" tag="div">
             <div class="card">
               <span class="number-allenge">4</span>
               <span class="text-allenge">洋楽</span>

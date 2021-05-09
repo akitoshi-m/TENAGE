@@ -7,7 +7,7 @@
           <p>What type do you like?</p>
         </v-col>
         <v-col cols="6">
-          <router-link to="/result" tag="div">
+          <router-link to="/types/word/1" tag="div">
             <div class="card">
               <div class="number-allenge">1</div>
               <div class="text-allenge">松岡 修造</div>
@@ -15,7 +15,7 @@
           </router-link>
         </v-col>
         <v-col cols="6">
-          <router-link to="/result" tag="div">
+          <router-link to="/types/word/2" tag="div">
             <div class="card">
               <span class="number-allenge">2</span>
               <span class="text-allenge">偉人</span>
@@ -23,7 +23,7 @@
           </router-link>
         </v-col>
         <v-col cols="6">
-          <router-link to="/result" tag="div">
+          <router-link to="/types/word/3" tag="div">
             <div class="card">
               <span class="number-allenge">3</span>
               <span class="text-allenge">スポーツ選手</span>
@@ -31,7 +31,7 @@
           </router-link>
         </v-col>
         <v-col cols="6">
-          <router-link to="/result" tag="div">
+          <router-link to="/types/word/4" tag="div">
             <div class="card">
               <span class="number-allenge">4</span>
               <span class="text-allenge">youtuber</span>
